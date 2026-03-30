@@ -318,32 +318,6 @@ Composite key for vote storage. A dedicated struct is required because `#[contra
 ```bash
 rustup target add wasm32-unknown-unknown
 ```
-
-### Get Testnet XLM (for fees and funding)
-
-You need testnet XLM to pay transaction fees and to bootstrap accounts used in the examples.
-
-1. Generate an address with Stellar CLI:
-
-```bash
-stellar keys generate --global testnet-user --network testnet
-stellar keys address testnet-user
-```
-
-2. Fund that address using Friendbot:
-
-```bash
-curl "https://friendbot.stellar.org/?addr=<YOUR_TESTNET_ADDRESS>"
-```
-
-3. Verify the balance:
-
-```bash
-stellar account show --address <YOUR_TESTNET_ADDRESS> --network testnet
-```
-
-If Friendbot says the account already exists, your address is already funded on testnet.
-
 ### Build
 
 ```bash
