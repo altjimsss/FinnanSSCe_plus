@@ -1,4 +1,4 @@
-# finnanssce_plus
+# FinnanSSCe_plus
 
 A Soroban smart contract that brings transparent, auditable treasury governance to Student Supreme Council (SSC) funds on Stellar testnet.
 
